@@ -1,8 +1,8 @@
-﻿using static System.Console;
+using static System.Console;
 
 namespace MyNewRootLib
 {
-    public class Root
+    public class Power
     {
         /* <summary>
         /// this method calculates the root
@@ -16,12 +16,12 @@ namespace MyNewRootLib
             Console.WriteLine("The square root of " + number + " is " + root);
             return root;
         }*/
-        public static double Power(double number) {
-            double root;
-            root = Math.Pow(number, 2);
+        public static double Power(double number, double number1) {
+            double pow;
+            Power = Math.Pow(number, number1);
 
-            Console.WriteLine(number + " to the power of 2 is " + root);
-            return root;
+            Console.WriteLine(number + " to the power of " + number1 + " is " + pow);
+            return pow;
         }
     }
 }
