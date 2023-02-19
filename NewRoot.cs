@@ -1,6 +1,6 @@
-using static System.Console;
+﻿using static System.Console;
 
-namespace MyNewRootLib
+namespace MyPowerLib
 {
     public class Power
     {

@@ -1,7 +1,7 @@
 using Xunit;
-using MyNewRootLib;
+using MyPowerLib;
 
-namespace MyNewRootLibTest
+namespace MyPowerLibTest
 {
 
 public class NewUnitTest1
@@ -12,7 +12,7 @@ public class NewUnitTest1
 		double a = 2; // arrange
 		double expected = 4;
 	
-		double actual = MyNewRootLib.Power.Power(a); // act
+		double actual = MyPowerLib.Power.Power(a); // act
  
 		Assert.Equal(expected, actual); // assert
 	}	
@@ -22,7 +22,7 @@ public class NewUnitTest1
 		double a = 3; // arrange
 		double expected = 9;
 	
-		double actual = MyNewRootLib.Power.Power(a); // act
+		double actual = MyPowerLib.Power.Power(a); // act
 
 		Assert.Equal(expected, actual); // assert
 	} 
